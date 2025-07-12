@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jakes Marende | Cybersecurity & Digital Forensics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f1115;
+      background-image: radial-gradient(circle at 20% 20%, #1a1a1f 0%, #0f1115 100%);
+      color: #e5e7eb;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      background-color: #1a1c22;
+      border-bottom: 2px solid #38bdf8;
+      box-shadow: 0 0 10px #38bdf8;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #9ca3af;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #38bdf8;
+      text-shadow: 0 0 5px #38bdf8;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3rem;
+      align-items: center;
+      justify-content: space-between;
+      background-image: linear-gradient(135deg, #111827, #0f172a);
+      box-shadow: inset 0 0 30px #38bdf8;
+    }
+    .hero-text {
+      flex: 1 1 400px;
+      padding-right: 2rem;
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #38bdf8;
+      }
+      to {
+        text-shadow: 0 0 20px #38bdf8, 0 0 30px #38bdf8;
+      }
+    }
+    .hero img {
+      max-width: 300px;
+      border-radius: 1rem;
+      border: 3px solid #38bdf8;
+      box-shadow: 0 0 20px #38bdf8;
+    }
+    .section {
+      padding: 3rem;
+      background-color: #181a1f;
+      margin: 2rem 0;
+      border-left: 4px solid #38bdf8;
+      box-shadow: 0 0 10px #111;
+    }
+    .section h2 {
+      color: #38bdf8;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #38bdf8;
+    }
+    .section ul li::marker {
+      content: '\2022';
+      color: #38bdf8;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1a1c22;
+      color: #6b7280;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 10px #38bdf8;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 0.5rem;
+      color: #38bdf8;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: transform 0.2s ease, text-shadow 0.3s ease;
+    }
+    .contact a i {
+      margin-right: 0.5rem;
+    }
+    .contact a:hover {
+      transform: scale(1.05);
+      text-shadow: 0 0 10px #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-user-shield"></i> Jakes Marende</h1>
+    <nav>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+      <a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
+      <a href="#blog"><i class="fas fa-pen"></i> Blog</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1><i class="fas fa-fingerprint"></i> Cybersecurity & Digital Forensics Enthusiast</h1>
+      <p>
+        I’m a cybersecurity student at Jaramogi Oginga Odinga University of Science and Technology with hands-on experience in digital forensics, vulnerability assessments, and incident response. Currently interning at Bank of Africa in IT Risk, preparing for CEH and CHFI certifications.
+      </p>
+    </div>
+    <img src="assets/IMG-20240205-WA0004.jpg" alt="Jakes Marende" />
+  </section>
+</body>
+</html>
